@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000
+}
+
+#root {
+    padding: 3rem;
+    text-align: center;
+}
+
+#root h1 {
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: #fff;
+}
+
+#root h1 > .b-1 {
+    color: red;
+}
+
+#root h1 > .b-2 {
+    color: orange;
+}
+
+#root h1 > .b-3 {
+    color: yellow;
+}
+
+#root h1 > .b-4 {
+    color: green;
+}
+
+#root h1 > .b-5 {
+    color: cyan;
+}
+
+#root h1 > .b-6 {
+    color: purple;
+}
+
+#root canvas {
+    display: block; 
+    margin: 10px auto;
+}

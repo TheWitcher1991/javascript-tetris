@@ -1,0 +1,34 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode production -w",
+    "mjs": "node --experimental-modules"
+  },
+  "author": "Ashot Svazyan <ashot.svazyan222@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWitcher1991/jstetris.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-for-of": "^7.4.4",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.4.0",
+    "requirejs": "^2.3.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "devEngines": {
+    "node": ">= 10.x",
+    "npm": ">= 6.x",
+    "yarn": ">= 1.15.2"
+  }
+}
